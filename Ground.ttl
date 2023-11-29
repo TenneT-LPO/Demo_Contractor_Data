@@ -1,0 +1,21 @@
+#Sample Contractor Data for asset "Ground"
+PREFIX ge:<https://www.gervernova.com/BA4/Station/>
+PREFIX ba4:<https://www.tennet.eu/lpo/2gw/ba4>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema:<https://schema.org/>
+PREFIX tnt:<http://hub.laces.tech/tennet/lpo/live/kernel-otl-protar-export/versions/1>
+PREFIX lpo_mapping: <http://hub.laces.tech/tennet/lpo/live/lpo_mapping/versions/1>
+
+ba4:ground1 rdf:type lpo_mapping:Ground;
+       rdf:type tnt:Ground;
+       props:hasProperty ba4:manufyear1;
+       props:hasProperty ba4:manfname1;
+
+ba4:manufyear1 rdf:type tnt:manfuacturedYear;
+     schema:hasValue "2026"^^xsd:YearQuantity.
+
+ba4:manufname1 rdf:type tnt:manufacturerName;
+     schema:hasValue "GE Vernova"^^xsd:string.
+
+
+     
