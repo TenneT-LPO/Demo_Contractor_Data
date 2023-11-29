@@ -12,7 +12,7 @@ ba4:ground1 rdf:type lpo_mapping:Ground;
        props:hasProperty ba4:manfname1;
 
 ba4:manufyear1 rdf:type tnt:manfuacturedYear;
-     schema:hasValue "2026"^^xsd:YearQuantity.
+     schema:hasValue "2025"^^xsd:YearQuantity.
 
 ba4:manufname1 rdf:type tnt:manufacturerName;
      schema:hasValue "GE Vernova"^^xsd:string.
